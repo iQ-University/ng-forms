@@ -32,7 +32,9 @@
         <select class="form-control"
                 formControlName="power">
           <option *ngFor="let p of powers"
-                  [value]="p">{{p}}</option>
+                  [value]="p">
+            {{p}}
+          </option>
         </select>
         <div class="alert alert-danger"
              [hidden]="heroForm.controls.power.valid">Power is required</div>

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ContactFormComponent } from './contact-form/contact-form.component';
-import { CeditCardComponent } from './cedit-card/cedit-card.component';
+import { CeditCardComponent } from './credit-card/cedit-card.component';
 
 
 const routes: Routes = [

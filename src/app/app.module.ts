@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
-import { CeditCardComponent } from './cedit-card/cedit-card.component';
+import { CeditCardComponent } from './credit-card/cedit-card.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
