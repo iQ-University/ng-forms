@@ -1,0 +1,30 @@
+.credit-card {
+    margin: 3em 3em;
+    padding: 2em;
+    border: solid black 1px;
+    width: 40vw;
+    height: 30vh;
+    background: linear-gradient(to right, rgba(125, 126, 125, 1) 0%, rgba(14, 14, 14, 1) 100%);
+    border-radius: 4px;
+    color: white;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+p {
+    font-size: 1em;
+}
+
+input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    font-size: 1em;
+    color:white;
+    text-transform: capitalize;
+}
+
+input:focus {
+     outline: none;
+}
+
+
